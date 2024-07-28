@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "jewelry-sales-system-at-the-store-mobile-v2",
+    "slug": "jewelry-sales-system-at-the-store-mobile-v2",
+    "version": "1.0.0",
+    "scheme": "jewelry-sales-system-at-the-store-mobile-v2",
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-dev-launcher",
+        {
+          "launchModeExperimental": "most-recent"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "tsconfigPaths": true
+    },
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.thanhlong109.jewelrysalessystematthestoremobilev2"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "aaa8c6f9-68b8-4987-ac75-d2ff5fa2edc1"
+      }
+    }
+  }
+}
